@@ -28,11 +28,18 @@ CoordMode, Mouse, screen
 ; Load the GUI
 #Include .\Script\Gui.ahk
 
-; Load all labels, used by the gui.
-#Include .\Script\GuiLables.ahk
+
+; Start listening for mouse events when it's over the gui.
+OnMessage(Wm_MouseMove, "WM_Mouse")
+OnMessage(Wm_LbuttonDown, "WM_Mouse")
+OnMessage(Wm_DraggGui, "WM_Mouse")
 
 ; Save settings whenever the script closes.
 OnExit("SaveSettings")
+
+; Load all labels, used by the gui.
+#Include .\Script\GuiLables.ahk
+
 Return ; Done loading!
 
 ;_______________________________________ Game Specific Code _______________________________________
