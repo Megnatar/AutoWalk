@@ -5,6 +5,7 @@ You need to install this autohotkey version:
 
 https://www.autohotkey.com/download/ahk-install.exe
 
+Some Features:
   - You can start each game from the script!
   - It comes with a little slim browser to load you're gammes from there.
   - AutoWalk for all games.
