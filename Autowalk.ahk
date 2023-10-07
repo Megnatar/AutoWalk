@@ -1,5 +1,5 @@
 ﻿/*
-    Autowalk v1.0.4.5 writen by Megnatar â¬–â¬˜â¬—â¬™
+    Autowalk v1.0.4.5 writen by Megnatar
 
     Everyone is free to use, add code and redistribute this script.
     But you MUST always credit ME Megnatar for creating the source!
@@ -20,13 +20,13 @@ sendmode Input
 CoordMode, Mouse, screen
 
 ; Load variables
-#Include Vars.ahk
+#Include .\script\Vars.ahk
 
 ; Initialize script
-#Include Init.ahk
+#Include .\script\Init.ahk
 
 ; Load the GUI
-#Include Gui.ahk
+#Include .\script\Gui.ahk
 
 ; Start listening for mouse events when it's over the gui.
 OnMessage(Wm_MouseMove, "WM_Mouse")
