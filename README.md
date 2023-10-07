@@ -1,6 +1,9 @@
 # AutoWalk
 Provides autowalk function for every game!
 
+You need to install this autohotkey version:
+https://www.autohotkey.com/download/ahk-install.exe
+
   - You can start each game from the script!
   - It comes with a little slim browser to load you're gammes from there.
   - AutoWalk for all games.
