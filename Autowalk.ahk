@@ -1,5 +1,5 @@
 ﻿/*
-    Autowalk v1.0.4.5 writen by Megnatar
+    Autowalk v1.0.5.0 writen by Megnatar
 
     Everyone is free to use, add code and redistribute this script.
     But you MUST always credit ME Megnatar for creating the source!
