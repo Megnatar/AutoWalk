@@ -5,8 +5,6 @@
     But you MUST always credit ME Megnatar for creating the source!
     The source code for this script can be found on my Github repository:
      https://github.com/Megnatar/AHK-Scripts/blob/master/Autowalk.ahk
-
-    Great thanx to Turul1989 for helping me debug and undestand what needs to be added.
 */
 
 #NoEnv
