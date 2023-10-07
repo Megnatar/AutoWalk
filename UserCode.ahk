@@ -3,4 +3,4 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-; Here you can put your code. The script can use it!
+; Here you can put your custom code. The script can use it!
