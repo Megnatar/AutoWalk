@@ -16,3 +16,6 @@ Some Features:
   - It comes with a dragable and fading GUI.
 
 Beta: AutoPot.
+
+Once AutoHotkey is installerd.
+Run: Autowalk.ahk
