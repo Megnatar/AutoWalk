@@ -33,6 +33,9 @@ OnMessage(Wm_MouseMove, "WM_Mouse")
 OnMessage(Wm_LbuttonDown, "WM_Mouse")
 OnMessage(Wm_DraggGui, "WM_Mouse")
 
+; Load all labels, used by the gui.
+#Include .\Script\GuiLables.ahk
+
 ; Save settings whenever the script closes.
 OnExit("SaveSettings")
 Return ; Done loading!
@@ -47,8 +50,6 @@ Return ; Done loading!
 #IfWinActive ahk_group ClientGroup
 #Include *i UserCode.ahk
 Return
-
-#Include .\Script\GuiLables.ahk
 
 ;_______________________________________ Script Functions And Classes _______________________________________
 
