@@ -11,7 +11,8 @@ Some Features:
   - AutoWalk for all games.
   - Includes features to auto rotate isomatric camers's.
   - Stores profile for each game in the list.
+  - Support for custom code!
   - Detects uninstalled games.
-  - It comes with a dragable and fading GUI,
+  - It comes with a dragable and fading GUI.
 
 Beta: AutoPot.
