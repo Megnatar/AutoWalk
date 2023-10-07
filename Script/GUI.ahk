@@ -112,8 +112,3 @@ if (ShowGameList) {
 
     Gui Show, % "w" (Gui_W := 378) " h201 x" Gui_X " y" Gui_Y, AutoWalk
 }
-
-; Start listening for mouse events when it's over the gui.
-OnMessage(Wm_MouseMove, "WM_Mouse")
-OnMessage(Wm_LbuttonDown, "WM_Mouse")
-OnMessage(Wm_DraggGui, "WM_Mouse")
