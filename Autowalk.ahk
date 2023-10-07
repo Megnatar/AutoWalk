@@ -20,13 +20,13 @@ sendmode Input
 CoordMode, Mouse, screen
 
 ; Load variables
-#Include .\script\Vars.ahk
+#Include .\Script\Vars.ahk
 
 ; Initialize script
-#Include .\script\Init.ahk
+#Include .\Script\Init.ahk
 
 ; Load the GUI
-#Include .\script\Gui.ahk
+#Include .\Script\Gui.ahk
 
 ; Start listening for mouse events when it's over the gui.
 OnMessage(Wm_MouseMove, "WM_Mouse")
