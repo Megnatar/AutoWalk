@@ -7,5 +7,6 @@ Provides autowalk function for every game!
   - Includes features to auto rotate isomatric camers's.
   - Stores profile for each game in the list.
   - Detects uninstalled games.
+  - It comes with a dragable and fading GUI,
 
 Beta: AutoPot.
